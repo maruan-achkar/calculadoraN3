@@ -20,8 +20,12 @@ function calcular(){
             result = n1 * n2;
             break;
         case '/':
-            result = n1 / n2;
-            break;
+                if(n2==0){
+                result = 'Não é possível dividir por 0.';  
+                }
+                else{
+                result = n1 / n2;};
+                break;
     }
 
     document.getElementById("resultado").innerHTML = 'Resultado = ' + result;
