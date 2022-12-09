@@ -1,5 +1,5 @@
-.body{
-    height: 100%;
+body{
+    background-color: rgb(56, 56, 56);
 }
 .content{
     width: 803px;
@@ -20,7 +20,7 @@
     text-align: center;
     font-family: Arial;
     line-height: 40px;
-    font-size: 1.75em;
+    font-size: 1.655em;
     background-color: #3FCFDE;
     transition: background 0.15s;
     width: 200px;
@@ -34,4 +34,7 @@
 }
 .radio:checked + .radiolabel{
     background-color: #ABFAA9;
+}
+#symbol{
+    display:inline;
 }
