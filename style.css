@@ -146,3 +146,10 @@ body{
     font-weight: bold;
     line-height: 35px;
 }
+footer{
+    font-family: arial;
+    font-weight: bold;
+    position: fixed;
+    bottom: -10px;
+    left: 5px;
+}
