@@ -74,6 +74,8 @@ body{
     border-radius: 10px;
     border: none;
     box-shadow: 5px 6px 4px rgb(0, 0, 0, 0.465);
+    box-sizing: border-box;
+    padding: 7px
 }
 #calcular{
     height: 70px;
