@@ -147,9 +147,24 @@ body{
     line-height: 35px;
 }
 footer{
+    width: 100%;
     font-family: arial;
     font-weight: bold;
     position: fixed;
-    bottom: -10px;
-    left: 5px;
+    bottom: 0;
+    left: 0;
+}
+.footera{
+    float: right;
+    margin-right: 5px;
+    color: black;
+    text-decoration: none;
+}
+.footera:hover{
+    color: white;
+}
+.footerp{
+    margin: 0;
+    margin-bottom: -17px;
+    margin-left: 5px;
 }
