@@ -1,0 +1,36 @@
+.body{
+    height: 100%;
+}
+.content{
+    width: 803px;
+    margin: auto;
+    margin-top: 10vw;
+}
+.radiocontainer{
+    display: inline-flex;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgb(0, 0, 0, 0.4);
+}
+.radio{
+    display: none;
+}
+.radiolabel{
+    cursor:pointer;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.85em;
+    background-color: #3FCFDE;
+    transition: background 0.15s;
+    width: 200px;
+    height: 40px;
+}
+.radiolabel:not(:last-of-type){
+    border-right: 1px solid black;
+}
+.radio:hover + .radiolabel{
+    background-color: #ABFAA9;
+}
+.radio:checked + .radiolabel{
+    background-color: #ABFAA9;
+}
