@@ -6,20 +6,22 @@ body{
 #title{
     font-family: Arial;
     color: white;
-    font-size: 2em;
+    font-size: 2.75em;
     text-align: center;
-    margin-bottom: 35px;
+    margin-bottom: 3px;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0, 0.465);
 }
 .content{
     width: 803px;
     margin: auto;
     margin-top: 10vw;
+    text-align: center;
 }
 .radiocontainer{
     display: inline-flex;
     overflow: hidden;
     border-radius: 10px;
-    box-shadow: 0 1px 7px rgb(0, 0, 0, 0.45);
+    box-shadow: 3px 4px 5px rgb(0, 0, 0, 0.465);
     width: 100%;
 }
 .radio{
@@ -60,6 +62,7 @@ body{
     align-self: center;
     font-size: 3em;
     color: white;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.465);
 }
 .input{
     width: 250px;
@@ -70,17 +73,16 @@ body{
     font-size: 1.5em;
     border-radius: 10px;
     border: none;
-    box-shadow: 0 1px 5px rgb(0, 0, 0, 0.4);
+    box-shadow: 5px 6px 4px rgb(0, 0, 0, 0.465);
 }
 #calcular{
     height: 70px;
     width: 200px;
     background-color: #62e9f8;
-    margin-left: 300px;
     margin-top: 10px;
     border: none;
     border-radius: 10px;
-    box-shadow: 0 1px 7px rgb(0, 0, 0, 0.465);
+    box-shadow: 5px 6px 2px rgb(0, 0, 0, 0.465);
     font-family: Arial;
     font-weight: bolder;
     font-size: 1.75em;
@@ -94,4 +96,36 @@ body{
     font-size: 2em;
     color: white;
     text-align: center;
+}
+.pageradiocontainer{
+    display: inline-flex;
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 1px 2px 4px rgb(0, 0, 0, 0.4);
+    margin-bottom: 35px;
+}
+.pageradio{
+    display: none;
+}
+.pageradiolabel{
+    background-color: #62e9f8;
+    font-family: arial;
+    font-size: 0.9em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.075s;
+    padding: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    line-height: 100%;
+}
+.pageradiolabel:not(:last-of-type){
+    border-right: 1px solid black;
+}
+.pageradio:hover + .pageradiolabel{
+    background-color: #ABFAA9;
+}
+.pageradio:checked + .pageradiolabel{
+    background-color: #ABFAA9;
 }
