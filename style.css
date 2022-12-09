@@ -126,6 +126,6 @@ body{
 .pageradio:hover + .pageradiolabel{
     background-color: #ABFAA9;
 }
-.pageradio:checked + .pageradiolabel{
+.pageradioactive{
     background-color: #ABFAA9;
 }
