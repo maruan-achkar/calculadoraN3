@@ -18,8 +18,9 @@
 .radiolabel{
     cursor:pointer;
     text-align: center;
+    font-family: Arial;
     line-height: 40px;
-    font-size: 1.85em;
+    font-size: 1.75em;
     background-color: #3FCFDE;
     transition: background 0.15s;
     width: 200px;
